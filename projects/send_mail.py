@@ -4,8 +4,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 def send_email(to_address, subject, body, latitude, longitude):
-    from_address = 'kundenatharakaram11@gmail.com'
-    password = 'iyah kkev yhgu uvau'  # Use an app-specific password if 2FA is enabled
+    from_address = 'sender email' # specific for every user
+    password = 'passkey'  # Use an app-specific password if 2FA is enabled
 
     # Create the MIME message
     msg = MIMEMultipart('alternative')
