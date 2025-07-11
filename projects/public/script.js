@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function sendEmail(latitude, longitude, nearestServices) {
-        const toAddresses = 'kundenatharakaram@gmail.com'; // Replace with your recipient email address
+        const toAddresses = 'recipient email like services'; // Replace with your recipient email address
         const subject = 'Emergency Alert';
         const coordinatesLink = `https://www.google.com/maps/search/?api=1&query=${latitude},${longitude}`;
         const body = `An emergency has been reported at latitude: ${latitude}, longitude: ${longitude}. Please respond immediately.\n\nNearest Services:\n${generateHtmlTable(nearestServices)}\n\nCoordinates Link: ${coordinatesLink}`;
